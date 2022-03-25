@@ -16,7 +16,7 @@ namespace Teste2 // Note: actual namespace depends on the project name.
 
 
             using (var fluxoDeArquivo = new FileStream(enderecoArquivo, FileMode.Open))
-            using (var leitor = new StreamReader(fluxoDeArquivo))
+            using (var leitor = new StreamReader(fluxoDeArquivo)) 
             {
                 while (!leitor.EndOfStream)
                 {
