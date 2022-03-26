@@ -8,7 +8,7 @@ namespace Teste2 // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            var enderecoArquivo = "Testando.txt";
+            var enderecoArquivo = "Testando.txt"; 
             var enderecoArquivo2 = "Bonus.txt";
 
             Console.WriteLine("Aperte enter para ver algo");
